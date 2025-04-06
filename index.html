@@ -2,12 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>Daniel</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="pattern-bg">
+    <div class="w-full h-screen grid place-items-center">
+      <div
+        class="flex items-center gap-4 border-indigo-500 border-4 p-8 rounded-md shadow-lg bg-slate-800/60 text-gray-200 backdrop-blur-xs"
+      >
+        <img
+          src="https://gravatar.com/avatar/8e7f8174ee4f9f12dc17e7497183b9b2ed31c1a84858693e15546faaf3dd5fb4?size=256"
+          alt="Profile picture"
+          class="w-48 rounded-full border-2 border-slate-900 shadow-xl"
+        />
+        <div class="flex flex-col gap-2">
+          <p>Nome: <span class="font-bold">Daniel Vieira Higa</span></p>
+          <p>
+            Curso: <span class="font-semibold">Sistemas de Informação</span>
+          </p>
+          <p>RGA: <span class="font-semibold">2023.1907.023-8</span></p>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
